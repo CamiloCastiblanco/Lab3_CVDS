@@ -6,7 +6,9 @@ public class RegistryTest {
     private Registry registry = new Registry();
     @Test
     public void validateRegistryResult() {
-        Person person = new Person();
+        Boolean ALIVE = Boolean.TRUE;
+        String Camilo = "Camilo";
+        Person person = new Person(Camilo, 123, 20, Gender.MALE, ALIVE);
         RegisterResult result = registry.registerVoter(person);
         Assert.assertEquals(RegisterResult.VALID, result);
     }

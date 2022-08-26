@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec4a04b5-f1d9-4b84-8f29-8b094e9f12db" name="Changes" comment="Third">
+    <list default="true" id="ec4a04b5-f1d9-4b84-8f29-8b094e9f12db" name="Changes" comment="Fifth">
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/tdd/registry/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/tdd/registry/Registry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/cvds/tdd/registry/RegistryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/cvds/tdd/registry/RegistryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661555418932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fifth">
+      <created>1661556175910</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661556175910</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +102,7 @@
     <MESSAGE value="First" />
     <MESSAGE value="Second" />
     <MESSAGE value="Third" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third" />
+    <MESSAGE value="Fifth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth" />
   </component>
 </project>

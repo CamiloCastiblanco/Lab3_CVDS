@@ -48,6 +48,20 @@ public class RegistryTest {
         //Assert
         Assert.assertEquals(RegisterResult.VALID, result);
     }
+
+    @Test
+    public void validateRegistryResultWhenAPersonIsAlreadyRegistered() {
+        //Arrange
+        Boolean ALIVE = Boolean.TRUE;
+        String Brayan = "Brayan";
+        Person person = new Person(Brayan, 123, 20, Gender.MALE, ALIVE);
+        //Act
+        RegisterResult result = registry.registerVoter(person);
+        //Assert
+        Assert.assertEquals(RegisterResult.DUPLICATED, result);
+    }
+
+
     // TODO Complete with more test cases
 
 

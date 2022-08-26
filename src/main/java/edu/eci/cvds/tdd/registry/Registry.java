@@ -11,7 +11,7 @@ public class Registry {
             result = RegisterResult.INVALID_AGE;
         } else if (age < 18 && age > 0 ) {
             result = RegisterResult.UNDERAGE;
-        } else if (state == Boolean.TRUE){
+        } else if (state != Boolean.TRUE){
             result = RegisterResult.DEAD;
         }else{
             result= RegisterResult.VALID;

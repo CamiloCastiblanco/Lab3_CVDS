@@ -3,26 +3,32 @@ package edu.eci.cvds.tdd.registry;
 import java.util.ArrayList;
 
 public class Registry {
+    RegistryValidate voter;
+    ;
     ArrayList<Integer> persons = new ArrayList<Integer>();
-    public RegisterResult registerVoter(Person p) {
         // TODO Validate person and return real result.
+    RegisterResult result;
 
-        int age = p.getAge();
-        int id = p.getId();
-        boolean state = p.isAlive();
-        RegisterResult result;
-        if (age < 0 || age > 110){
-            result = RegisterResult.INVALID_AGE;
-        } else if (age < 18 && age > 0 ) {
-            result = RegisterResult.UNDERAGE;
-        } else if (state != Boolean.TRUE){
-            result = RegisterResult.DEAD;
-        }else if (persons.contains(id)){
-            result= RegisterResult.DUPLICATED;
-        }else {
-            result= RegisterResult.VALID;
-            persons.add(id);
-        }
-        return result;
-}}
+    public Registry(RegistryValidate injection) {
+        voter = injection;
+    }
+
+    RegisterResult invalid() {
+        return voter.registerVoter(RegisterResult.INVALID_AGE);
+    }
+    RegisterResult under() {
+        return voter.registerVoter(RegisterResult.UNDERAGE);
+    }
+    RegisterResult dead() {
+        return voter.registerVoter(RegisterResult.DEAD);
+    }
+    RegisterResult duplicated() {
+        return voter.registerVoter(RegisterResult.DUPLICATED);
+    }
+    RegisterResult valid() {
+        return voter.registerVoter(RegisterResult.VALID);
+    }
+
+
+}
 

@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec4a04b5-f1d9-4b84-8f29-8b094e9f12db" name="Changes" comment="Fifth">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/tdd/registry/RegistryValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/tdd/registry/Registry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/tdd/registry/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/cvds/tdd/registry/RegistryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/cvds/tdd/registry/RegistryTest.java" afterDir="false" />
     </list>
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DubnQE0AIyB2RQv9HheywlpLwO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +42,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/brayan.castiblanco-b/Lab3_CVDS",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
